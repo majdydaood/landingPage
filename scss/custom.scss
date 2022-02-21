@@ -1,0 +1,81 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+#section-1-welcome {
+    background-image: url(../img/bg00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+}
+
+.feature1 {
+    background: url(../img/buuton-play.svg), url(../img/f1.png);
+    background-repeat: no-repeat;
+    background-size: 25% 25%, contain;
+    background-position: center center, center center;
+    min-height: 300px;
+}
+
+.feature2 {
+    background: url(../img/buuton-play.svg), url(../img/f2.png);
+    background-repeat: no-repeat;
+    background-size: 25% 25%, contain;
+    background-position: center center, center center;
+    min-height: 300px;
+}
+
+#section-3-fastest {
+    background-color: #252B42;
+    min-height: 500px;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+}
+
+#section-6-pricing {
+    background-color: #252B42;
+    min-height: 500px;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+}
+
+.formulaire {
+    box-shadow: 0px 0px 20px 1px #00000040;
+}
+
+footer {
+    background-color: #252B42;
+    min-height: 500px;
+    clip-path: polygon(50% 0, 100% 20%, 100% 100%, 0 100%, 0 20%);
+}
+
+header {
+    z-index: 1;
+}
+
+#section-1-welcome h1 {
+    padding-top: 20%;
+}
+
+#section-1-welcome .btnContainer {
+    padding-bottom: 20%;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header .socials img {
+    height: 20px;
+}
+
+#section-4-partner img {
+    height: 75px;
+}
+
+.burger img {
+    background: #0d6efd;
+    padding: 10px;
+}
+
+@media screen and (max-width: 750px) {
+    #section-6-pricing {
+        clip-path: none;
+    }
+}
